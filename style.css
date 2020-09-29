@@ -1,11 +1,10 @@
 .container {
-  background-color: #355068;
   display:flex;
   justify-content: center;
   align-items: center;
   height:75px;
   width:360px;
-  border:8px solid #d5d5ce;
+
 }
 
 #tomato {
@@ -18,7 +17,7 @@
 #countdown {
   text-align: center;
   font-size: 50px;
-  font-family: "Glacial Indifference";
+  font-family: "ArcadePop";
   font-weight: 600;
   color: white;
   margin-left: 10px;
@@ -26,7 +25,7 @@
 }
 
 button {
-  background-color: #355068;
+  background-color: #00000000;
   border: 0;
   padding-left: 0px;
   padding-right: 0px;
@@ -44,4 +43,9 @@ button {
 
 #resetButton {
   margin-right: 15px;
+}
+
+@font-face {
+  font-family: 'ArcadePop';
+  src: url('D:/OneDrive/Documents/FIUCS/Personal/Web Dev/Pomodoro-Countdown/Montserrat-Black.otf'); /*URL to font*/
 }
