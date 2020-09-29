@@ -111,8 +111,8 @@ function updateTimeString() {
 }
 
 function playYoScott() {
-  var yoScottAudio = document.getElementById("yoScottAudio");
-  yoScottAudio.play();
+  var alarmAudio = document.getElementById("alarmAudio");
+  alarmAudio.play();
 
-  document.getElementById("countdown").innerHTML = "Hi~";
+  document.getElementById("countdown").innerHTML = "Hey~";
 }
